@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang của tôi</title>
+    <style>
+       /* Định dạng cho phần tử đầu tiên */
+        li:first-child {
+            font-style: italic;
+            text-transform: uppercase;
+        }
+
+        /* Định dạng cho phần tử cuối cùng */
+        li:last-child {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        /* Định dạng cho các phần tử lẻ */
+        li:nth-child(odd) {
+            color: blueviolet;
+        }
+
+        /* Định dạng cho các phần tử chẵn */
+        li:nth-child(even) {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tiện ích của tôi</h1>
+    <style>
+        h1 { 
+            color: lightcoral; /* Màu chữ */
+            font-size: 40px; /* Cỡ chữ */
+            background-color: lightgreen; /* Màu nền */
+        }
+    </style>    
+    <ul>
+        <li><p><a href="https://www.youtube.com/">Youtube</a></p></li> 
+        <li><p><a href="https://animevietsub.pub/bang-xep-hang/month.html">AnimeVietsub</a></p></li>
+        <li><p><a href="https://www.m2duelstore.com/" target="_blank">M2DuelStore</a></p></li>
+        <li><p><a href="https://nghienbongda.vn/" target="_blank">NghiệnBóngĐá</a></p></li>
+    </ul>
+</body>
+</html>
