@@ -1,0 +1,16 @@
+.rectangle {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    background-color: gray;
+}
+.m1 { background-color: green; }
+.m2 { background-color: blue; }
+.m3 { background-color: red; }
+.m4 { background-color: pink; }
+.m5 { background-color: purple; }
+.m6 { background-color: orange; }
+.muc-tieu { background-color: lightblue; }
