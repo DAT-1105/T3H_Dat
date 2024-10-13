@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.header, .footer {
+    background-color: rgb(17, 41, 137);
+    color: white;
+    text-align: flex-start;
+    padding: 10px;
+}
+.main {
+    display: flex;
+    flex: 1;
+}
+.main-content {
+    background-color: green;
+    flex: 2;
+    padding: 10px;
+    text-align: center;
+}
+.sidebar {
+    background-color: purple;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+.twin-container {
+    display: flex;
+    flex-direction: row;
+}
+.twin1 {
+    background-color: orange;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+.twin2 {
+    background-color: red;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
